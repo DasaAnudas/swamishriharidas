@@ -1,0 +1,70 @@
+
+html {
+	box-sizing: border-box;
+}
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+body {
+	width: 80%;
+	margin: auto;
+
+	line-height: 2;
+}
+body {
+	width: 60%;
+	margin: auto;
+}
+@media screen and (max-width: 933px) {
+	body {
+		width: 80%;
+		margin: auto;
+	}
+}
+@media print { 
+	body {
+		width: 80%;
+		margin: auto;
+	}
+}
+
+header {
+	margin-top: 3em;
+	text-align: center;
+	line-height: 0.95;
+}
+header .middle {
+	margin: 0;
+}
+header p {
+	text-align: center;
+}
+h2 {
+	margin-top: 3em;
+}
+ul { 
+	padding-left: 0;
+	text-align: justify;
+}
+li {
+	list-style: none;
+}
+p {
+	text-align: justify;
+}
+
+/* COMMON SECTION */
+.align-center {
+   text-align: center; 
+}
+.align-right {
+	text-align: right;
+}
+.original-pg-no {
+	text-align: center;
+	margin-top: 3em;
+	margin-bottom: 1em;
+}
+p.lyrics {
+	font-size: 1.1em;
+}
